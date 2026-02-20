@@ -31,3 +31,26 @@ font-size: large;
 .facts-page{
      background-color: aquamarine;
 }
+.facts-content-div{
+    margin-left: 10%;
+}
+.facts-content-div li{
+    font-size: large;
+}
+.gallery-content{
+    display: flex ;
+    justify-content: center;
+    align-items:center;
+    }
+.gallery-content button{
+    border-radius: 30%;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(rgb(0, 255, 195), rgb(255, 196, 0), blue);
+    border-color: rgb(rgb(40, 46, 215), rgb(133, 3, 255), rgb(255, 0, 0));
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    height: 1%;
+}
