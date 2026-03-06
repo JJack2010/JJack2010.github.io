@@ -21,3 +21,9 @@ nextbutton.addEventListener('click',function(){
  currentimageindex=(currentimageindex +1) % imagegallery.length;   
 updateimage();
 }); 
+prevbutton.EventListener('click',function(){
+ currentimageindex=(currentimageindex -1) % imagegallery.length;   
+updateimage();
+}); 
+
+
